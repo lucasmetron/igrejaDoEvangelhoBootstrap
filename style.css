@@ -1,12 +1,19 @@
 :root{
-    --var--green1: #2DCFB8;
-    --var--green2: #28b6a0;
-    --var--green3: #177466;
+    --var--green1: #03B36A;
     
-    --var--brown1:#78705F;
-    --var--brown2:#5c5649;
-    --var--brown3:#3a362e;
+    --var--gray1:#606060;
+    --var--gray2:#838383;
+    --var--gray3:#EEEDED;
+    
+    --var--white1: white;    
+}
 
-    --var--gray1:#EEEDED;
-    
+.brand{
+    background-color:  var(--var--green1);
+    width: 100%;
+    text-align: center;
+}
+
+.brand > img{
+    width: 9.375rem;
 }
