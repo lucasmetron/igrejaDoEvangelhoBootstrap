@@ -1,19 +1,121 @@
 :root{
     --var--green1: #03B36A;
     
-    --var--gray1:#606060;
-    --var--gray2:#838383;
-    --var--gray3:#EEEDED;
+    --var--gray1:#383838;
+    --var--gray2:#606060;
+    --var--gray3:#838383;
+    --var--gray4:#EEEDED;
     
     --var--white1: white;    
 }
 
+/* 
+body{
+    font-family: 'Playfair Display', serif;
+} */
+
 .brand{
-    background-color:  var(--var--green1);
+    background-color: var(--var--gray1);
     width: 100%;
     text-align: center;
+    position: relative;
 }
 
 .brand > img{
     width: 9.375rem;
+}
+
+.lineY{
+    width: 1px;
+    height: 30px;
+    background-color: var(--var--gray1);
+}
+
+.bg-tansparent{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.handsUpContainer{
+    background-image: url(./assets/images/handsup.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.handsUpContainer > h1 {
+    text-shadow: 1px 1px gray;
+}
+
+.handsUpContainer > p {
+    text-shadow: 1px 1px gray;
+}
+
+.container > p {
+    font-size: 1.5rem;
+}
+
+.handsUpContainer > button {
+    font-size: 1.2rem;
+    border: 1px solid var(--var--gray4);
+    padding: 0.3rem 1.5rem 0.5rem 1.5rem ;
+    background: transparent;
+    text-align: center;
+    border-radius: 5px;
+
+    transition: all  0.5s;
+}
+
+.handsUpContainer > button:hover {
+    
+    border: 1px solid var(--var--gray3);
+    background: var(--var--gray3);
+}
+
+.btnPertenca{
+    color: white;
+    transition: all ease 0.5s;
+    text-decoration: none;
+
+    transition: all ease 0.5s;
+}
+
+.btnPertenca:hover {
+    color: var(--var--gray1);
+    transition: all ease 0.5s;
+}
+
+
+.pastorText{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+}
+
+.textFamilyPastor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textFamilyPastor > h2{
+    font-weight: 400;
+}
+
+.signature{
+    font-family:'Alex Brush', cursive;
+}
+
+.pastorFamily > img{
+    width: 100%;
+    height: 100%;
 }
