@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 :root{
     --var--green1: #03B36A;
     
@@ -22,7 +28,7 @@ body{
 }
 
 .brand > img{
-    width: 9.375rem;
+    width: 10rem;
 }
 
 .lineY{
@@ -119,3 +125,42 @@ body{
     width: 100%;
     height: 100%;
 }
+
+.ourNews{
+    background-color: var(--var--gray1);
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourNews > img{
+    width: 5rem;
+    
+}
+
+.ourNews > p{
+   margin-bottom: 0px;
+    
+}
+
+.imgsWidth{
+    max-width: 250px;
+    display: inline;
+}
+
+.carroselNews{
+    width: 100%;
+    background: red;
+    box-sizing: border-box;
+}
+
+.carroselGrid{
+    background: chartreuse;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+}
+
