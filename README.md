@@ -1,10 +1,10 @@
 # Site Igreja do Evangelho - Bootstrap
 
-### - Após finalizar o módulo de bootstrap do curso programdor BR, decidi refazer o primeiro site que criei quando comecei o curso. E me surpreendia com a evolução que eu tive. Até 3 meses atrás eu não conseguia fazer nada e hoje além de prestar manutenção e incluir o bootstrap em um projeto que já existia, estou conseguindo até fazer sistemas mais completos (exemplo disso é o meu sistema Escola do Lucas, se não conhece veja meus posts do LinkeIn).
+### - Após finalizar o módulo de bootstrap do curso programador BR, decidi refazer o primeiro site que criei quando comecei o curso. E me surpreendia com a evolução que eu tive. Até 3 meses atrás eu não conseguia fazer nada e hoje além de prestar manutenção e incluir o bootstrap em um projeto que já existia, estou conseguindo até fazer sistemas mais completos (exemplo disso é o meu sistema Escola do Lucas, se não conhece veja meus posts do LinkedIn).
 
 ### - Estou muito feliz com a minha evolução e creio que em breve com dedicação, conseguirei entrar no mercado de trabalho novamente :D
 
-### - Nesta aplicação foram usados as seguintes tecnologias:
+### - Nesta aplicação foram usadas as seguintes tecnologias:
 
 #### *HTML.
 #### *CSS.
