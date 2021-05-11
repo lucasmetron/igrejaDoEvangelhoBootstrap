@@ -225,7 +225,7 @@ body{
 
 .college{
     background-image: url(./assets/images/bible-on-wood.jpg);
-    background-position:top;
+    background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -318,9 +318,12 @@ body{
     margin-top: 2rem;
     }
     
+ 
     
     .college{
         font-size: 0.8rem;
+        background-position:center;
+        background-size:cover;
     }
     
     
