@@ -17,7 +17,9 @@
 ![mailchimp](.assets/gifs/mobile.gif)
 
 ### Acesse o site e veja você mesmo! Link: https://idevangelhobootstrap.netlify.app/
+### Site antigo: https://app.netlify.com/sites/idevangelho/overview
 
+### Repositório do projeto: https://github.com/lucasmetron/igrejaDoEvangelhoBootstrap
 
 ### Gostou do meu projeto? :D Entre em contato comigo! 
 [Linkedin](https://www.linkedin.com/in/lucas-rosa-058683102/) <br/>
