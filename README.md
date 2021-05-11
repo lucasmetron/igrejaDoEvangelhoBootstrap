@@ -17,7 +17,7 @@
 ![Tela Inicial](assets/gifs/mobile.gif)
 
 ### Acesse o site e veja você mesmo! Link: https://idevangelhobootstrap.netlify.app/
-### Site antigo: https://app.netlify.com/sites/idevangelho/overview
+### Site antigo: https://idevangelho.netlify.app/
 
 ### Repositório do projeto: https://github.com/lucasmetron/igrejaDoEvangelhoBootstrap
 
