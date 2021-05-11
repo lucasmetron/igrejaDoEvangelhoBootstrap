@@ -11,10 +11,10 @@
 #### *Bootstrap.
 
 ### Front End para desktop
-![Tela inicial](.assets/gifs/desktop.gif)
+![Tela inicial](assets/gifs/desktop.gif)
 
 ### Front End para celular
-![mailchimp](.assets/gifs/mobile.gif)
+![Tela Inicial](assets/gifs/mobile.gif)
 
 ### Acesse o site e veja você mesmo! Link: https://idevangelhobootstrap.netlify.app/
 ### Site antigo: https://app.netlify.com/sites/idevangelho/overview
