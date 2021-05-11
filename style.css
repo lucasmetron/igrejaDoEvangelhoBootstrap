@@ -75,6 +75,10 @@ body{
     font-size: 1.5rem;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .handsUpContainer > button {
     font-size: 1.2rem;
     border: 1px solid var(--var--gray4);
@@ -117,10 +121,15 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .textFamilyPastor > h2{
     font-weight: 400;
+}
+
+.textFamilyPastor > p{
+    text-align: justify;
 }
 
 .signature{
@@ -215,8 +224,8 @@ body{
 }
 
 .college{
-    background-image: url(./assets/images/holy-bible.jpg);
-    background-position: center;
+    background-image: url(./assets/images/bible-on-wood.jpg);
+    background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -224,5 +233,109 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    color: white;
 }
 
+
+.ballPastor > img{
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.college > div{
+    text-align: center;
+}
+
+.college > p, h5{
+    text-shadow: 1px 1px gray;
+}
+
+.shadowP{
+    text-shadow: 1px 1px gray;
+}
+
+
+.footerChurch{
+    width: 100%;
+    background-color: var(--var--gray1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9rem;
+
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.f2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.f3{
+ text-align: center;
+}
+
+
+.f1{
+    width: 33%;
+    text-align: justify;
+}
+
+.f1 > img{
+    max-width: 200px;
+} 
+
+.f2 > div > img{
+    max-width: 35px;
+} 
+
+.f3 > a > img{
+    max-width: 35px;
+} 
+
+
+@media screen and (max-width: 863px) {
+    
+    
+    .pastorText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    }
+
+    .textFamilyPastor > p{
+    margin-top: 2rem;
+    }
+    
+    
+    .college{
+        font-size: 0.8rem;
+    }
+    
+    
+    .ballPastor > img{
+        max-width: 150px;
+        border-radius: 50%;
+        margin-left: 15px;
+    }
+    
+    .footerChurch{
+        flex-direction: column;
+    
+    }
+
+    .f1{
+        width: 100%;
+    }
+}
